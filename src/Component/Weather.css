@@ -1,0 +1,35 @@
+.weatherContainer {
+  width: 100%;
+  margin-top: 30px;
+  /* margin-left: 30px; */
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cityInput {
+  font-size: 15px;
+  width: 70%;
+  padding: 5px 10px;
+  margin-left: 30px;
+}
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.history_list{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  padding:15px;
+  margin-top: 5px;
+}
+
+.delete{
+  padding:5px 10px;
+  background-color: red;
+}
+.delete:hover{
+  cursor: pointer;
+}
